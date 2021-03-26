@@ -1,1 +1,52 @@
-/* add home page styles here */
+body {
+    color:midnightblue;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin: 20px;
+}
+
+input {
+    background-color:thistle;
+    border: 5px solid thistle;
+    border-radius: 10px;
+    color: blue;
+    font-weight: 300;
+    margin: 2px 5px;
+    padding: 0px;
+}
+
+button {
+    background-color:gold;
+    border: 2px solid gold;
+    border-radius: 10px;
+    color: blue;
+    font-size: 105%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: chartreuse;
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+    color: blue;
+    font-size: 105%;
+    font-weight: bold;
+}
+.calc {
+    margin: 5px;
+}
+
+.verify {
+    margin: 5px;
+}
+
+.result {
+    background:khaki;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 5px 10px;
+}
