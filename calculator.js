@@ -18,7 +18,7 @@ export function divide(x, y) {
 }
 
 export function toNumber(input) {
-    if (input === '') {
+    if (input === "") {
         return 0;
     } 
     return Number(input.value);

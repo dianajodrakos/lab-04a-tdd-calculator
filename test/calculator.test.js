@@ -100,7 +100,7 @@ test('toNumber test', (expect) => {
     //inputs?
     const expected = 7;
     const input = document.createElement('input');
-    input.value = expected;
+    input.value = "7";
     
     //Act 
     // Call the function you're testing and set the result to a const
@@ -116,7 +116,7 @@ test('Empty string returns 0', (expect) => {
     // Set up your arguments and expectations
     //inputs?
     const expected = 0;
-    const input = '';
+    const input = "";
 
     //Act 
     // Call the function you're testing and set the result to a const
